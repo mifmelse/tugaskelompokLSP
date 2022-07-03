@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title><?php echo $title_web;?> | Sistem Informasi Perpustakaan Codekop </title>
+  <title><?php echo $title_web;?> | Sistem Informasi Perpustakaan Gunadarma </title>
   <!-- Tell the browser to be responsive to screen width -->
 
 
@@ -53,21 +53,21 @@
       $(document).ajaxStart(function() { Pace.restart(); });
   </script>
 </head>
-<body class="hold-transition skin-blue-light sidebar-mini">
+<body class="hold-transition skin-purple-light sidebar-mini">
 <div class="wrapper">
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="<?php echo base_url('index.php/dashboard');?>" class="logo">
+    <a href="<?php echo base_url('index.php/dashboard');?>" class="logo bg-white">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>P</b>C</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg">Library Gunadarma</span>
+      <span class="logo-lg">Perpustakaan Gunadarma</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+      <a href="#" class="sidebar-toggle bg-white" data-toggle="push-menu" role="button">
         <span class="sr-only">Toggle navigation</span>
       </a>
       <!-- Navbar Right Menu -->

@@ -47,7 +47,7 @@
 <div class="login-box">
 	<br/>
   <div class="login-logo">
-    <a href="index.php" style="color: yellow;">Sistem Informasi <br/><b>Perpustakaan</b></a>
+    <a href="index.php" style="color: white;"><b>Sistem Informasi</b> <br/><b>Perpustakaan</b></a>
   </div>
   <div id="tampilalert"></div>
   <!-- /.login-logo -->
@@ -73,7 +73,7 @@
           <!-- /.social-auth-links -->
         </div>
         <div class="col-xs-4">
-          <button type="submit" id="loding" class="btn btn-primary btn-block btn-flat">Sign In</button>
+          <button type="submit" id="loding" class="btn btn-info btn-block btn-flat">Sign In</button>
           <div id="loadingcuy"></div>
         </div>
         <!-- /.col -->
@@ -83,8 +83,8 @@
   <!-- /.login-box-body -->
   <br/>
   <footer>
-    <div class="login-box-body text-center bg-blue">
-       <a style="color: yellow;"> Copyright &copy; Sistem Perpustakaan Codekop - <?php echo date("Y");?>
+    <div class="login-box-body text-center bg-purple">
+       <a style="color: white;"> Copyright &copy; Sistem Perpustakaan Gunadarma - <?php echo date("Y");?>
     </div>
   </footer>
 </div>
