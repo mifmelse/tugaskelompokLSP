@@ -60,7 +60,7 @@
     <!-- Logo -->
     <a href="<?php echo base_url('index.php/dashboard');?>" class="logo bg-white">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>P</b>C</span>
+      <span class="logo-mini"><b>P</b>G</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg">Perpustakaan Gunadarma</span>
     </a>
@@ -78,7 +78,7 @@
               $d = $this->db->query("SELECT * FROM tbl_login WHERE id_login = '$idbo'")->row();
              ?>
             <a href="<?= base_url('user/edit/'.$idbo);?>">
-              Welcome , <i class="fa fa-edit"> </i> <?php echo $d->nama; echo ' | ( '.$d->level.' )'; ?></a>
+              Profile , <i class="fa fa-edit"> </i> <?php echo $d->nama; echo ' | ( '.$d->level.' )'; ?></a>
           </li>
           <li>
             <a href="<?php echo base_url();?>login/logout">Sign out</a>
